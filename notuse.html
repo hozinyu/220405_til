@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 200px;
+        height: 500px;
+
+        margin-left: 50px;
+      }
+      nav {
+        background-color: salmon;
+        color: white;
+        width: 200px;
+        height: 200px;
+        float: left;
+      }
+      .navi {
+        line-height: 1;
+        background-color: skyblue;
+        width: 200px;
+        height: 300px;
+        color: white;
+        font-weight: 800;
+      }
+      #complete ::before {
+        content: "";
+        display: block;
+        clear: left;
+        color: white;
+      }
+      .parents {
+        background-color: gainsboro;
+        width: 400px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="parents" id="complete">
+      <nav>and nav!</nav>
+      <nav class="">this is nav2222</nav>
+      <nav class="navi">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iure ex
+        enim! Corporis, assumenda possimus? Quos modi atque omnis quod quidem,
+        asperiores molestias voluptatem sit quae officia dolor nesciunt? Quod.
+      </nav>
+    </div>
+  </body>
+</html>

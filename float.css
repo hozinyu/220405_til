@@ -1,0 +1,30 @@
+.parents { 
+    width:100px; 
+    margin:0    ; 
+    background-color: rgb(181, 181, 181);}
+
+.child {
+     width:200px;
+     height:200px;
+      
+      text-align: center; 
+      color:white;
+       font-weight: 600;
+    }
+
+.red {
+    background-color: red;
+    }
+
+.yellow { 
+    background-color:#ffc82c;
+    }
+
+    .blue {
+        background-color: #0066ff;
+        width: 300px;
+        height: 300px;
+    }
+
+span {font-weight: 600;}
+body {margin: 0;}
